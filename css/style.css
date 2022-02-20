@@ -344,6 +344,47 @@ body {
   padding-bottom: 60px;
 }
 
+.footer-box {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer-block:last-child {
+  margin-left: 70px;
+  margin-top: 12px;
+}
+
+.welcome-social-list {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+  margin-bottom: 20px;
+}
+
+.social-list-footer {
+  display: flex;
+}
+.social-list-link-footer {
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.social-list-icon-footer {
+  fill: #ffffff;
+}
+
+.social-list-link-footer:hover,
+.social-list-link-footer:focus {
+  background-color: #2196f3;
+}
+
 .our-projects {
   font-weight: bold;
   font-size: 18px;
